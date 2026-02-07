@@ -1,49 +1,82 @@
+/* Estilos generales */
 body {
-    font-family: Arial;
-    background-color: #FEF9E7;
-    color: #2C2C2C;
-    margin: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eef7f6;
+  color: #333;
 }
 
-h1 {
-    background-color: #7D3C98;
-    color: white;
-    padding: 15px;
-    text-align: center;
+/* Encabezado */
+header {
+  background-color: #009688;
+  color: white;
+  text-align: center;
+  padding: 30px 15px;
 }
 
+header h1 {
+  margin-bottom: 10px;
+}
+
+/* Menú de navegación */
 nav {
-    background-color: #F4D03F;
-    padding: 10px;
-    text-align: center;
+  background-color: #00695c;
+  padding: 12px;
+  text-align: center;
 }
 
 nav a {
-    color: #2C2C2C;
-    margin: 6px;
-    text-decoration: none;
-    font-weight: bold;
+  color: white;
+  text-decoration: none;
+  margin: 6px;
+  padding: 8px 14px;
+  background-color: #00897b;
+  border-radius: 6px;
+  display: inline-block;
 }
 
+nav a:hover {
+  background-color: #26a69a;
+}
+
+/* Contenido principal */
+main {
+  padding: 20px;
+}
+
+/* Secciones */
 section {
-    padding: 15px;
+  background-color: white;
+  margin-bottom: 25px;
+  padding: 20px;
+  border-left: 8px solid #009688;
+  border-radius: 10px;
 }
 
-#galeria {
-    background-color: #FDEBD0;
+section h2 {
+  color: #00695c;
 }
 
-#galeria img {
-    width: 180px;
-    margin: 8px;
-    border: 3px solid #7D3C98;
+/* Imágenes */
+section img {
+  width: 100%;
+  max-width: 320px;
+  display: block;
+  margin: 15px auto;
+  border-radius: 10px;
+  border: 2px solid #009688;
 }
 
+/* Párrafos */
+section p {
+  text-align: justify;
+  line-height: 1.7;
+}
+
+/* Pie de página */
 footer {
-    background-color: #7D3C98;
-    color: white;
-    text-align: center;
-    padding: 10px;
+  background-color: #00695c;
+  color: white;
+  text-align: center;
+  padding: 15px;
 }
-
-
